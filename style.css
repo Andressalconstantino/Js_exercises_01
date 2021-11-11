@@ -1,0 +1,53 @@
+form input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+form input:hover{
+    border: 1px solid #000033;
+}
+
+body{
+    margin: 0px;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/11/glow-universe-23.jpg");
+}
+
+body main{
+    font-family: "Century Gothic";
+    color: #1a1a1a;
+    margin: 5% 15% 15% 15%;
+    padding: 3%;
+    background-color: rgba(179, 179, 255, 0.5);
+    border: 1px solid #9999ff;
+    border-radius: 2px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #ccccff;
+    border: 1px solid #b3b3ff;
+    border-radius: 2px;
+    color: #333333;
+}
+
+button:hover{
+    color: #262626;
+    background-color: #b3b3ff;
+}
+
+#tableTwo{
+    border: none;
+    width: 100px;
+    background-color: #ccccff;
+    padding-left: 2%;
+    border-radius: 4px;
+}
+
+#tableTwo:hover{
+    background-color: #b3b3ff;
+}

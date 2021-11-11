@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Js_exercises</title>
-</head>
-<body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Js_exercises</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1 align="center">Desafios 1</h1>
+            <h2>Faça uma página usando apenas HTML, CSS e JavaScript e
+                desenvolva respostas para os desafios abaixo: </h2>
+            <h3>1. Calcule a média de diversas notas digitadas pelo usuário.</h3>
+            <form id="one">
+                <label for="notas">Notas:</label> <br>
+                <input id="notas" name="Notas" type="text" placeholder="Digite suas notas aqui">
+            </form>
 
-</body>
+            <button id="submit" type="submit" name="Submit">Calcular Média</button>
+            <br><br> A média é: <span id="Result"> </span>
+
+            <h3>2. Faça  um  site  que  permita  a  entrada  de  cinco  números  e  imprima  o
+                quadrado de cada número.</h3>
+            <form id="two">
+                <label for="numbers">Números:</label> <br>
+                <input id="numbers" name="Numbers" type="text" placeholder="Digite 5 números aqui">
+            </form>
+            <button id="send" type="submit" name="Send">Calcular</button>
+            <br><br> Raiz quadrada de cada número:<br> <span id="ResultTwo"> </span>
+
+            <h3>3. Peça ao usuário para digitar 5 números em uma caixa de texto. Verifique
+                qual é o maior número e exiba-o.</h3>
+            <form id="three">
+                <label for="numeros">Números:</label> <br>
+                <input id="numeros" name="Numeros" type="text" placeholder="Digite 5 números aqui">
+            </form>
+            <button id="enviar" type="submit" name="enviar">Calcular</button>
+            <br><br> O maior número é: <span id="maior"> </span>
+            <script src="js_exercises.js"></script>
+        </main>
+    </body>
 </html>
